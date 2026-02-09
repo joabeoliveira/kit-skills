@@ -39,11 +39,20 @@ Este não é apenas um "boilerplate". É um ecossistema de inteligência projeta
 └── starter-nextjs/        # Template base Dockerizado (Dockerfile/Compose)
 ```
 
-## 🛠️ Como Usar no seu Projeto
+## 🛠️ Como Instalar no seu Projeto
 
-1. **Clone este repositório** como sua base inicial ou adicione-o como um submódulo.
-2. **Configure seu Agente de IA**: Aponte o seu editor (Cursor/VS Code) para ler o arquivo `.cursorrules`. Isso fará com que a IA passe a seguir todas as Skills automaticamente.
-3. **Siga o Starter**: Entre na pasta `starter-nextjs` para subir seu ambiente Docker em segundos.
+Você pode adicionar o **Kit Skills** em segundos a qualquer projeto novo ou existente usando `npx`:
+
+```bash
+# Navegue até a pasta do seu projeto e execute:
+npx github:joabeoliveira/kit-skills
+```
+
+Isso copiará os arquivos `.cursorrules` e a pasta `.skills/` diretamente para a raiz do seu projeto.
+
+### Outras formas:
+- **Template Completo**: `npx degit joabeoliveira/kit-skills meu-projeto`
+- **Manual**: Clone este repositório e copie os arquivos desejados.
 
 ## 🤝 Contribuições
 

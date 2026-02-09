@@ -1,0 +1,18 @@
+{
+  "name": "kit-skills",
+  "version": "1.0.0",
+  "description": "CLI para instalar o Kit Skills em projetos Next.js",
+  "main": "cli.js",
+  "bin": {
+    "kit-skills": "./cli.js"
+  },
+  "keywords": [
+    "nextjs",
+    "n8n",
+    "govtech",
+    "skills",
+    "productivity"
+  ],
+  "author": "Joabe Oliveira",
+  "license": "MIT"
+}
