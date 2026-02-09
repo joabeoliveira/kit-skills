@@ -90,4 +90,4 @@ Este Kit é vivo! Se você encontrar uma nova jurisprudência do TCU, uma norma 
 
 ---
 
-Criado com ❤️ por **Joabe Oliveira**. Se precisar que eu inclua badges adicionais (coverage, CodeQL, etc.) ou queira que eu adicione automaticamente os templates e arquivos de governança, posso aplicar esses arquivos agora — confirme e eu adiciono os restantes.
+Criado por **Joabe Oliveira**.
