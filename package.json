@@ -1,18 +1,31 @@
 {
-  "name": "kit-skills",
-  "version": "1.0.0",
-  "description": "CLI para instalar o Kit Skills em projetos Next.js",
-  "main": "cli.js",
-  "bin": {
-    "kit-skills": "./cli.js"
-  },
-  "keywords": [
-    "nextjs",
-    "n8n",
-    "govtech",
-    "skills",
-    "productivity"
-  ],
-  "author": "Joabe Oliveira",
-  "license": "MIT"
+    "name": "kit-skills",
+    "version": "1.0.0",
+    "description": "CLI para instalar o Kit Skills em projetos Next.js",
+    "main": "cli.js",
+    "bin": {
+        "kit-skills": "./cli.js"
+    },
+    "keywords": [
+        "nextjs",
+        "n8n",
+        "govtech",
+        "skills",
+        "productivity"
+    ],
+    "author": "Joabe Oliveira",
+    "license": "MIT",
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "husky": "^7.0.0",
+        "lint-staged": "^11.0.0"
+    }
 }
